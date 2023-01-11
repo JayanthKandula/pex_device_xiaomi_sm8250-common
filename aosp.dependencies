@@ -1,0 +1,20 @@
+[
+  {
+    "remote":       "github",
+    "repository":   "PixelExperience/hardware_xiaomi",
+    "target_path":  "hardware/xiaomi"
+    "branch":       "thirteen"
+  },
+  {
+    "remote":       "github"
+    "repository":   "JayanthKandula/kernel_xiaomi_munch",
+    "target_path":  "kernel/xiaomi/sm8250"
+    "branch":       "thirteen"
+  },
+  {
+    "remote":       "gitlab",
+    "repository":   "JayanthKandula/vendor_xiaomi_sm8250-common",
+    "target_path":  "vendor/xiaomi/sm8250-common"
+    "branch":       "thirteen"
+  }
+]
