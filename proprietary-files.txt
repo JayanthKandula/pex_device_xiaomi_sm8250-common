@@ -459,6 +459,8 @@ system_ext/lib64/libmmosal.so
 system_ext/lib64/libmmparser_lite.so
 vendor/lib/libmmosal.so
 vendor/lib64/libmmosal.so
+vendor/lib/libOmxVdec.so
+vendor/lib64/libOmxVdec.so
 
 # Media configs
 odm/etc/media_profiles_V1_0.xml
