@@ -155,10 +155,10 @@ TREBLE_PARTITIONS := odm vendor
 ALL_PARTITIONS := $(SSI_PARTITIONS) $(TREBLE_PARTITIONS)
 
 $(foreach p, $(call to-upper, $(ALL_PARTITIONS)), \
-    $(eval BOARD_$(p)IMAGE_FILE_SYSTEM_TYPE := erofs) \
+    $(eval BOARD_$(p)IMAGE_FILE_SYSTEM_TYPE := ext4) \
     $(eval TARGET_COPY_OUT_$(p) := $(call to-lower, $(p))))
 
-BOARD_EROFS_PCLUSTER_SIZE := 262144
+
 PRODUCT_VIRTUAL_AB_COMPRESSION_METHOD := lz4
 
 # Partitions - dynamic
